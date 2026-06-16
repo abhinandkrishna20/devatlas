@@ -121,3 +121,11 @@ Used correct template name.
 
 Completed
 
+## LinkedIn Post Idea
+
+Today I learned why modern React projects use Vite instead of CRA.
+
+Key Takeaways:
+- Faster startup
+- Better HMR
+- Improved developer experience
