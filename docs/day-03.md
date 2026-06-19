@@ -6,19 +6,23 @@ Date: 17-06-2026
 ## Goal
 
 Today I go to build my Overview page, here I shold add the following things
--> Photo Placeholder
 
--> Name
+First I build a card component for my profile section then I use it to create more setions like about section,Profile stats, github stats, learning process and reacent activities. it is easy to reuse this card component, 
 
--> Role
+but I need to split the overview section into tiny components, 
+like 
+1. Profile
+2. About
+3. Stats on my portfolio
+4. GitHub Stats
+5. Learning Progress
+6. Recent Activity
 
--> Current Goal
-
--> Location
+with using Card
 
 ## Concepts Learned
 
-Concept 1
+I learn some Tailwind Css, 
 
 Definition:
 ...
@@ -46,8 +50,8 @@ Solution:
 
 ## What I Built
 
-...
+I build overview page
 
 ## Tomorrow's Goal
 
-...
+break the Overview page into tiny components, 
