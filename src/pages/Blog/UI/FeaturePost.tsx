@@ -48,14 +48,14 @@ const FeaturePost = ({ mainPost, sidePosts }: FeaturePostProps) => {
         </div>
 
         {/* SIDE FEATURE POSTS (Right side on desktop - stacked vertically) */}
-        <div className="feature-post-side w-full md:w-[32%] flex flex-col gap-5 justify-between">
+        <div className="feature-post-side w-full md:w-[32%] flex flex-col gap-5 ">
           {sidePosts.slice(0, 2).map((post) => (
             <div key={post.id} className="side-post flex flex-col gap-2 group cursor-pointer">
               <div className="overflow-hidden rounded-md shadow-sm">
                 <img 
                   src={post.img} 
                   alt={post.title} 
-                  className="w-full h-[145px] object-cover group-hover:scale-105 transition-transform duration-300" 
+                  className="w-full h-[160px] object-cover group-hover:scale-105 transition-transform duration-300" 
                 />
               </div>
               <h3 className="text-md font-bold text-gray-800 group-hover:text-amber-800 transition-colors line-clamp-2 leading-snug">
