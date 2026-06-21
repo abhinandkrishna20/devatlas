@@ -2,3 +2,17 @@
 
 /* This one line enables the manual "class" strategy for dark mode in v4! */
 @custom-variant dark (&:where(.dark, .dark *));
+
+
+/* Editor.js Input Base Typography alignment fixes */
+.ce-block__content, 
+.ce-toolbar__content {
+  max-w: 100% !important; /* Full layout expand bounds */
+}
+
+/* Paragraph input content style matching */
+.ce-paragraph {
+  color: #d1d5db !important;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}

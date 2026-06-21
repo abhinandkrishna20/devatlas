@@ -1,13 +1,6 @@
 import Card from "../../../components/ui/Card";
 
-interface Post {
-  id: string;
-  title: string;
-  category: string;
-  img: string;
-  author: string;
-  date: string;
-}
+import type { Post } from "../../../types/blogtypes";
 
 interface RecentArticlesProps {
   recentPosts: Post[];

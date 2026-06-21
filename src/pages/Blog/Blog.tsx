@@ -7,6 +7,7 @@ import BannerPost from "./UI/BannerPost";
 import {blogPosts} from "../../data/blog.ts";
 
 
+
 const Blog: React.FC = () => {
   const featurePosts = blogPosts.slice(-3);
   const mainPost = featurePosts.pop()!;
@@ -16,6 +17,7 @@ const Blog: React.FC = () => {
   return (
     <div className="Blog-container flex flex-col gap-6 items-center justify-center">
       <BannerPost />
+      
       <FeaturePost mainPost={mainPost} sidePosts={sidePosts} />
       <RecentArticles recentPosts={recentPosts} />
       <EarlierArticles earlierPosts={earlierPosts} />

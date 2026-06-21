@@ -1,16 +1,7 @@
 import Card from "../../../components/ui/Card";
+import type { Post } from "../../../types/blogtypes";
 
-interface Post {
-  id: string;
-  title: string;
-  excerpt: string;
-  category: string;
-  img: string;
-  author: string;
-  date: string;
-  readTime: string;
-  tags: string[];
-}
+
 
 interface EarlierArticlesProps {
   earlierPosts: Post[];
