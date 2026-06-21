@@ -25,7 +25,7 @@ const EarlierArticles = ({ earlierPosts }: EarlierArticlesProps) => {
       <div className="p-6 bg-[#f7f4ef]">
         
         {/* HEADER AREA */}
-        <div className="flex justify-between items-baseline border-b border-gray-200 pb-4 mb-4">
+        <div className="flex justify-between items-baseline border-b border-gray-500 pb-4 mb-4">
           <h2 className="text-3xl font-black italic text-gray-950 uppercase tracking-tight">
             Earlier
           </h2>
