@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import {Outlet} from "react-router-dom";
+
 const MainLayout: React.FC = () => {
   return (
     <div className="h-screen flex flex-col">
@@ -12,6 +13,7 @@ const MainLayout: React.FC = () => {
           <Outlet />
         </main>
       </div>
+     
     </div>
   );
 };
