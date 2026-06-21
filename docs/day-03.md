@@ -1,16 +1,15 @@
 # Day 03
 
-
 Date: 17-06-2026
 
 ## Goal
 
-Today I go to build my Overview page, here I shold add the following things
+Today I go to build my Overview page, here I shold add the following things.
 
 First I build a card component for my profile section then I use it to create more setions like about section,Profile stats, github stats, learning process and reacent activities. it is easy to reuse this card component, 
 
-but I need to split the overview section into tiny components, 
-like 
+but I need to split the overview section into tiny components, like:
+
 1. Profile
 2. About
 3. Stats on my portfolio
@@ -18,40 +17,33 @@ like
 5. Learning Progress
 6. Recent Activity
 
-with using Card
+with using Card.
 
 ## Concepts Learned
 
-I learn some Tailwind Css, 
+I learn some Tailwind Css.
 
-Definition:
-...
+**Definition:**
+*(Add definition here)*
 
-Example:
-...
+**Example:**
+*(Add example here)*
 
-Use Case:
-...
+**Use Case:**
+*(Add use case here)*
 
 ## Problems Faced
 
-Problem:
-...
+**Problem:**
+*(Add problem here)*
 
-Reason:
-...
+**Reason:**
+*(Add reason here)*
 
-Solution:
-...
+**Solution:**
+*(Add solution here)*
 
 ## Code Snippets
 
-...
-
-## What I Built
-
-I build overview page
-
-## Tomorrow's Goal
-
-break the Overview page into tiny components, 
+```txt
+(Add your code snippets inside code blocks like this)

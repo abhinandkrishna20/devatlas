@@ -83,3 +83,4 @@ export default AppRoutes;
 | `blog` was a child of `MainLayout` | `blog` has its own parent `BlogLayout` |
 | All routes shared one layout | Two layout groups, separate |
 | Sidebar showed on Blog page | Sidebar hidden on Blog routes |
+
