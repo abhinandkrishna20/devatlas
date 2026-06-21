@@ -108,9 +108,23 @@ export const blogPosts = [
     author: "Mr.x",
     tags: ["MERN", "web development"],
     category: "MERN Stack",
+    readTime: "5 min",
+    // 💡 Add dynamic content identifier file name map
+    markdownFile: "exploring-the-mern-stack.md" 
+  },
+    {
+    id: "11",
+    img: thumbnailImg,
+    title: "Exploring the MERN Stack",
+    date: "2026-06-24",
+    excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    author: "Mr.x",
+    tags: ["MERN", "web development"],
+    category: "MERN Stack",
     readTime: "5 min"
 
   }
+  
 
 
 
