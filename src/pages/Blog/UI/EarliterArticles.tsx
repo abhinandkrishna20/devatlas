@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Card from "../../../components/ui/Card";
 import type { Post } from "../../../types/blogtypes";
 
@@ -36,10 +37,12 @@ const EarlierArticles = ({ earlierPosts }: EarlierArticlesProps) => {
             });
 
             return (
+              <NavLink to={`/blog/${post.id}`} className="block">
               <div 
                 key={post.id} 
                 className="flex flex-col md:flex-row md:items-center gap-2 md:gap-6 py-4 border-b border-gray-100 last:border-b-0 group cursor-pointer"
               >
+                
                 {/* 1. DATE FIELD (Fixed Width on Desktop) */}
                 <div className="w-28 flex-shrink-0 text-xs font-bold text-gray-400">
                   {formattedDate}
@@ -62,9 +65,12 @@ const EarlierArticles = ({ earlierPosts }: EarlierArticlesProps) => {
                   by <span className="text-gray-500 underline decoration-gray-300 group-hover:text-amber-800 group-hover:decoration-amber-800 transition-colors">{post.author}</span>
                 </div>
 
+              
               </div>
+              </NavLink>
             );
           })}
+
         </div>
 
       </div>

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Card from "../../../components/ui/Card";
 import type { Post } from "../../../types/blogtypes";
 
@@ -19,6 +20,7 @@ const FeaturePost = ({ mainPost, sidePosts }: FeaturePostProps) => {
 
         {/* MAIN FEATURE POST (Left side on desktop) */}
         <div className="feature-post-main flex-1 flex flex-col gap-3">
+          <NavLink to={`/blog/${mainPost.id}`} className="block">
           <div className="overflow-hidden rounded-md shadow-sm">
             <img 
               src={mainPost.img} 
@@ -36,12 +38,14 @@ const FeaturePost = ({ mainPost, sidePosts }: FeaturePostProps) => {
               <span>{mainPost.date}</span>
             </div>
           </div>
+          </NavLink>
         </div>
 
         {/* SIDE FEATURE POSTS (Right side on desktop - stacked vertically) */}
         <div className="feature-post-side w-full md:w-[32%] flex flex-col gap-5 ">
           {sidePosts.slice(0, 2).map((post) => (
             <div key={post.id} className="side-post flex flex-col gap-2 group cursor-pointer">
+              <NavLink to={`/blog/${post.id}`} className="block">
               <div className="overflow-hidden rounded-md shadow-sm">
                 <img 
                   src={post.img} 
@@ -52,6 +56,7 @@ const FeaturePost = ({ mainPost, sidePosts }: FeaturePostProps) => {
               <h3 className="text-md font-bold text-gray-800 group-hover:text-amber-800 transition-colors line-clamp-2 leading-snug">
                 {post.title}
               </h3>
+              </NavLink>
             </div>
           ))}
         </div>

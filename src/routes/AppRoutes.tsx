@@ -9,6 +9,7 @@ import Achievements from "../pages/Achievements/Achievements";
 import Blog from "../pages/Blog/Blog";
 import Resources from "../pages/Resources/Resources";
 import BlogLayout from "../components/layout/BlogLayout";
+import BlogDetail from "../pages/Blog/BlogDetail";
 const AppRoutes = () => {
   return (
     <Routes>
@@ -27,7 +28,7 @@ const AppRoutes = () => {
         {/* GROUP 2: BlogLayout — Navbar only, no Sidebar */}
       <Route path="/blog" element={<BlogLayout />}>
         <Route index element={<Blog />} />
-        {/* <Route path=":id" element={<BlogDetail />} />  // for later */}
+        <Route path=":id" element={<BlogDetail />} />  // for later
       </Route>
     </Routes>
   );
