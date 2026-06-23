@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import MainLayout from "../components/layout/MainLayout";
+import MainLayout from "../components/layout/Main-Layout/MainLayout";
 import Overview from "../pages/Overview/Overview";
 import Projects from "../pages/Projects/Projects";
 import Learning from "../pages/Learning/Learning";
@@ -8,7 +8,7 @@ import Roadmaps from "../pages/Roadmaps/Roadmaps";
 import Achievements from "../pages/Achievements/Achievements";
 import Blog from "../pages/Blog/Blog";
 import Resources from "../pages/Resources/Resources";
-import BlogLayout from "../components/layout/BlogLayout";
+import BlogLayout from "../components/layout/Blog/BlogLayout";
 import BlogDetail from "../pages/Blog/BlogDetail";
 const AppRoutes = () => {
   return (
