@@ -6,7 +6,7 @@ const BannerPost = () => {
   return (
     <Card>
       {/* Main Container: Off-white background, horizontal flex layout with responsive behaviors */}
-      <div className="Banner-post-container flex flex-col md:flex-row items-center justify-between gap-4 p-4 md:py-6 md:px-8 bg-[#f7f4ef]">
+      <div className="Banner-post-container flex flex-col md:flex-row items-center justify-between gap-4 p-4 md:py-6 md:px-8 bg-[#1a1d27] rounded-xl shadow-md">
         
         {/* LEFT BLOCK: Profile Image + Quote Text */}
         <div className="flex items-center gap-4 w-full md:w-auto">
@@ -20,7 +20,7 @@ const BannerPost = () => {
           </div>
 
           {/* Quote Text */}
-          <h2 className="text-lg md:text-2xl font-black italic text-[#071d49] tracking-tight leading-tight">
+          <h2 className="text-lg md:text-2xl font-black italic text-yellow-400 tracking-tight leading-tight">
            Developer Journal
           </h2>
            <p className="text-lg">A collection of lessons learned while

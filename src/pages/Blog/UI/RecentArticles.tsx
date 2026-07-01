@@ -22,11 +22,11 @@ const RecentArticles = ({ recentPosts }: RecentArticlesProps) => {
        
             {/* LEFT SIDE: Text Contents */}
             <div className="Recent-article-content flex-1 flex flex-col gap-1 border-b border-gray-100 pb-2 group-hover:border-amber-500 transition-colors">
-              <span className="text-xs font-bold text-gray-500 uppercase tracking-wider border-b-2 border-amber-500 w-max pb-0.5 mb-1">
+              <span className="text-xs font-bold text-gray-200 uppercase tracking-wider border-b-2 border-amber-500 w-max pb-0.5 mb-1">
                 {post.category}
               </span>
              
-              <h3 className="text-xl font-bold text-gray-950 group-hover:text-amber-700 transition-colors line-clamp-2 leading-snug">
+              <h3 className="text-xl font-bold text-gray-200 group-hover:text-amber-700 transition-colors line-clamp-2 leading-snug">
                 {post.title}
               </h3>
               <div className="flex items-center gap-1.5 mt-2 text-xs text-gray-400 font-medium">

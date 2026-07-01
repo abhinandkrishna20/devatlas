@@ -15,7 +15,7 @@ const Blog: React.FC = () => {
   const recentPosts = blogPosts.slice(-6, -3);
   const earlierPosts = blogPosts.slice(0, -6);
   return (
-    <div className="Blog-container flex flex-col gap-6 items-center justify-center">
+    <div className="Blog-container bg-[#1a1d27]  justify-center items-center rounded-xl p-6 pt-8 pb-16 font-sans">
       <BannerPost />
       <FeaturePost mainPost={mainPost} sidePosts={sidePosts} />
       <RecentArticles recentPosts={recentPosts} />

@@ -16,7 +16,7 @@ const Sidebar: React.FC = () => {
      <ul className="space-y-2">
       {menuItems.map((item) => (
         <li key={item.path}>
-          <NavLink to={item.path} className="hover:bg-gray-200 p-2 block rounded px-3 py-2 hover:bg-gray-100">
+          <NavLink to={item.path} className="hover:bg-gray-600 p-2 block rounded px-3 py-2 hover:bg-gray-500">
             {item.name}
           </NavLink>
         </li>

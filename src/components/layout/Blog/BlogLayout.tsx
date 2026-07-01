@@ -8,14 +8,14 @@ const BlogLayout = () => {
   return (
     // 1. h-screen-ah mathittu min-h-screen pottaal, content yevlo perusa irukko avlo thooram page grow aagum.
     // 2. flex flex-col pottaal vertical flow aligned-ah irukum.
-    <div className="min-h-screen flex flex-col bg-gray-100">
+    <div className="min-h-screen flex flex-col bg-[#1a1d27] text-slate-200 font-sans">
       
       <Navbar />
       
       {/* 3. flex-1 space fill pannikkum.
         4. overflow-auto-va thookiyachu, so ippo page normal-ah smoothly browser window-la scroll aagum.
       */}
-      <main className="flex-1 w-full max-w-7xl mx-auto px-4 md:px-6 py-6">
+      <main className="flex-1 w-full max-w-7xl mx-auto px-4 md:px-6 py-6 bg-[#1a1d27]  shadow-md">
         <Outlet />
       </main>
       

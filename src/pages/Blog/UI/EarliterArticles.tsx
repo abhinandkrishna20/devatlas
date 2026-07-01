@@ -14,11 +14,11 @@ const EarlierArticles = ({ earlierPosts }: EarlierArticlesProps) => {
 
   return (
     <Card>
-      <div className="p-6 bg-[#f7f4ef]">
+      <div className="p-6 bg-[#1a1d27]  rounded-xl shadow-md">
         
         {/* HEADER AREA */}
         <div className="flex justify-between items-baseline border-b border-gray-500 pb-4 mb-4">
-          <h2 className="text-3xl font-black italic text-gray-950 uppercase tracking-tight">
+          <h2 className="text-3xl font-black italic text-amber-700 uppercase tracking-tight">
             Earlier
           </h2>
           <span className="text-xs font-bold text-gray-400 tracking-wider uppercase">
@@ -55,7 +55,7 @@ const EarlierArticles = ({ earlierPosts }: EarlierArticlesProps) => {
 
                 {/* 3. TITLE FIELD (Expands to take remaining middle space) */}
                 <div className="flex-1">
-                  <h3 className="text-base md:text-lg font-medium text-gray-900 group-hover:text-amber-800 transition-colors line-clamp-1">
+                  <h3 className="text-base md:text-lg font-medium text-gray-200 group-hover:text-amber-800 transition-colors line-clamp-1">
                     {post.title}
                   </h3>
                 </div>

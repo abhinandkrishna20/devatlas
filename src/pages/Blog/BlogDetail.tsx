@@ -46,9 +46,9 @@ const BlogDetail = () => {
 
   if (!post) {
     return (
-      <div className="min-h-[60vh] flex flex-col items-center justify-center p-6 text-center bg-[#f7f4ef] rounded-lg m-6">
+      <div className="min-h-[60vh] flex flex-col items-center justify-center p-6 bg-[#1a1d27]  text-center border border-white rounded-lg m-6">
         <h2 className="text-2xl font-bold text-gray-800 mb-2">Article Not Found</h2>
-        <NavLink to="/blog" className="inline-flex items-center gap-2 px-4 py-2 bg-amber-800 text-white rounded-md">
+        <NavLink to="/blog" className="inline-flex items-center gap-2 px-4 py-2 bg-amber-800  rounded-md">
           <ArrowLeft size={16} /> Back to Blog
         </NavLink>
       </div>
@@ -62,7 +62,7 @@ const BlogDetail = () => {
   });
 
   return (
-    <div className="min-h-screen bg-[#f7f4ef] text-gray-900 py-10 px-4 md:px-8">
+    <div className="min-h-screen bg-[#1a1d27] text-gray-900 py-10 px-4 md:px-8 border border-white rounded-xl max-w-5xl mx-auto font-sans">
       <article className="max-w-3xl mx-auto">
         
         {/* BACK NAV ACTION CONTROL */}
@@ -79,11 +79,11 @@ const BlogDetail = () => {
           <span className="px-3 py-1 bg-amber-100 text-amber-900 text-xs font-bold rounded uppercase tracking-wider">
             {post.category}
           </span>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-gray-900 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-gray-200 leading-tight">
             {post.title}
           </h1>
           
-          <div className="flex flex-wrap items-center gap-4 text-xs md:text-sm text-gray-500 border-y border-gray-200/60 py-3">
+          <div className="flex flex-wrap items-center gap-4 text-xs md:text-sm text-gray-400 border-y border-gray-200/60 py-3">
             <div className="flex items-center gap-1.5"><User size={16} /> <span className="font-semibold text-gray-700">{post.author}</span></div>
             <span>•</span>
             <div className="flex items-center gap-1.5"><Calendar size={16} /> <span>{formattedDate}</span></div>
