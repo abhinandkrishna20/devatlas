@@ -5,7 +5,7 @@ const Profile: React.FC = () => {
   return (
     <div >
         <Card >
-            <div className="inline-block p-[3px] rounded-full bg-gradient-to-tr from-amber-500 via-red-500 to-purple-600 mb-4">
+            <div className="inline-block p-[3px] rounded-full bg-gradient-to-tr from-amber-500 via-red-500 to-purple-600 mb-4 [perspective:1000px] transition-transform duration-700 [transform-style:preserve-3d] ease-in-out hover:[transform:rotateY(360deg)]">
           <div className="p-[2px] bg-white rounded-full">
             <img 
               src={profile} 
