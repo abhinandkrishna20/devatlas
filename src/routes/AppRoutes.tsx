@@ -29,6 +29,7 @@ const AppRoutes = () => {
       <Route path="/blog" element={<BlogLayout />}>
         <Route index element={<Blog />} />
         <Route path=":id" element={<BlogDetail />} />  // for later
+        
       </Route>
     </Routes>
   );

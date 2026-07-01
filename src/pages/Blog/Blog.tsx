@@ -4,7 +4,7 @@ import EarlierArticles from "./UI/EarliterArticles";
 import RecentArticles from "./UI/RecentArticles";
 import BannerPost from "./UI/BannerPost";
 // import { Post } from "./UI/FeaturePost";
-import { blogPosts } from "../../data/blog.ts";
+import { blogPosts } from "../../data/Blog/blog.ts";
 
 
 

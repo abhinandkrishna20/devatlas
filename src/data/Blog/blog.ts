@@ -1,4 +1,5 @@
-import thumbnailImg from "../assets/Thumpnail.jpg"
+// import thumbnailImg from "../assets/Thumpnail.jpg"
+import thumbnailImg from "../../../src/assets/Thumpnail.jpg"
 export const blogPosts = [  
   {
     id: "1",

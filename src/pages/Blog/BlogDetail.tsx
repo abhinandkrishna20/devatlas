@@ -2,7 +2,7 @@ import { useParams, NavLink, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown"; // Import ReactMarkdown
 import { ArrowLeft, Clock, Calendar, User, Tag, Loader2 } from "lucide-react";
-import { blogPosts } from "../../data/blog.ts";
+import { blogPosts } from "../../data/Blog/blog.ts";
 
 const BlogDetail = () => {
   const { id } = useParams<{ id: string }>();
