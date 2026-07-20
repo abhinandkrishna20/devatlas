@@ -10,6 +10,7 @@ const Sidebar: React.FC = () => {
   { name: "Achievements", path: "/achievements" },
   { name: "Blog", path: "/blog" },
   { name: "Resources", path: "/resources" },
+  { name: "Settings", path: "/settings" }
     ];
   return (
     <aside className="w-64 border-r p-4">

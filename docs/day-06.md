@@ -3,5 +3,7 @@
 Date: 21-06-2026
 
 ## Goal 
-To complete the Blog Editor view
+To complete the Blog view with md files also
+
+
 
